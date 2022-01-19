@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@200;300&display=swap");
+
+:root {
+  --poppins: Poppins, sans-serif;
+  --fatface: "Abril Fatface", cursive;
+  --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  --black: black;
+  --grey: grey;
+  --white: white;
+}
+
+body {
+  margin: 0 130px;
+}
+
+#nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+#navbarNavAltMarkup {
+  justify-content: right;
+}
+
+.navbar-collapse.in {
+  display: block !important;
+}
+
+.poppins {
+  font-family: var(--poppins);
+}
+
+.fatface {
+  font-family: var(--fatface);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.sans {
+  font-family: var(--font-sans);
+}
+
+.nav-margin {
+  margin: 20px 150px;
+}
+
+#head-container {
+  margin: 100px 0;
+}
+
+.font-size-lg {
+  font-size: 60px;
+}
+
+.l-space-neg {
+  letter-spacing: -0.5px;
+}
+
+.intro-line {
+  margin-bottom: 0px;
+}
+
+.profile-photo {
+  width: 60%;
+  padding: 12px;
+  border-left: 3px solid var(--black);
+  /* border-top: 2px solid var(--black); */
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 60px;
+}
+
+.background {
+  position: fixed;
+  bottom: 0;
+  font-size: 200px;
+  color: rgb(233, 233, 233);
+  margin-left: -100px;
+  z-index: -2;
+}
+
+.my-7 {
+  margin-top: 3.5rem;
+  margin-bottom: 8rem;
+}
+
+#background-container {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  background-color: #000;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+#about-me {
+  padding-top: 30px;
+}
+
+.container-title-after::after,
+.container-title-after-2::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -25px;
+  left: 140px;
+  width: 300px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: grey;
+}
+
+.container-title-after-2::after {
+  width: 280px;
+  left: 170px;
+}
+
+.container-title-before::before {
+  content: "";
+  display: block;
+  position: relative;
+  top: 20px;
+  right: 10px;
+  width: 300px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: grey;
+}
+
+.about-me-text {
+  padding: 10px;
+  text-align: justify;
+}
+
+.card-details {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.github,
+.application {
+  -webkit-transform: scale(0.9);
+  -webkit-transition: all 0.5s ease-in-out;
+  opacity: 0.5;
+  object-fit: cover;
+  border-radius: 2% !important;
+}
+
+.work-img {
+  object-fit: cover;
+  border-radius: 2% !important;
+}
+
+.github:hover,
+.application:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1);
+  opacity: 1;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.contact-icons {
+  margin-top: 60px;
+}
+
+#contact-container {
+  margin-top: 100px;
+}
+
+.project-card {
+  position: relative;
+}
+
+.nav-link {
+  text-align: right;
+}
+
+.content-display {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  padding: 10px 10px;
+  opacity: 0;
+  transition: 0.5s ease;
+  border-radius: 2% !important;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0, 1));
+}
+
+.project-card:hover .content-display {
+  opacity: 1;
+}
+
+.content-text {
+  position: absolute;
+  bottom: 8px;
+  text-align: left;
+  padding-left: 10px;
+  color: var(--white);
+}
+
+.contact-text {
+  padding: 0 100px;
+}
+
+.margin-content {
+  margin: 60px 0;
+}
+
+.work-margin {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+@media screen and (max-width: 1700px) {
+  .work-margin {
+    margin: 0 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .work-img {
+    height: 300px;
+  }
+
+  .tech-text {
+    font-size: 12px;
+  }
+  .nav-margin {
+    margin: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav-margin {
+    margin: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile-photo {
+    width: 50%;
+    float: none !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  #profile-desc {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .my-7 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  #head-container {
+    margin: 50px 0;
+  }
+  /* body, */
+  #about-me {
+    margin: 0 10px;
+  }
+  .content-display {
+    opacity: 1;
+  }
+  .container-title-after::after,
+  .container-title-before::before {
+    width: 170px;
+  }
+  .container-title-before::before {
+    right: 100px;
+  }
+  .container-title-after-2::after {
+    left: 140px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body,
+  #about-me,
+  #contact-container {
+    margin: 0 10px;
+  }
+  #contact-container {
+    margin-top: 60px;
+  }
+  .container-title-after::after,
+  .container-title-before::before {
+    width: 180px;
+  }
+  .container-title-after::after {
+    left: 100px;
+  }
+  .container-title-before::before {
+    right: 110px;
+  }
+  .container-title-after-2::after {
+    left: 130px;
+    width: 150px;
+  }
+  .contact-text {
+    padding: 0;
+  }
+  .my-7 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  .name {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .container-title-before::before {
+    right: 10px;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
