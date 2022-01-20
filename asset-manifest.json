@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.d75bb04a.css",
+    "main.js": "/my-app/static/js/main.a170729a.js",
+    "static/media/WeatherDashboard.bmp": "/my-app/static/media/WeatherDashboard.234686370233ccca7509.bmp",
+    "static/media/TrackingJournal-1.bmp": "/my-app/static/media/TrackingJournal-1.0fb4e633ed3308aa3c12.bmp",
+    "static/media/profilephoto.JPG": "/my-app/static/media/profilephoto.6922edce6485ba8bdea8.JPG",
+    "static/media/CodeQuiz.gif": "/my-app/static/media/CodeQuiz.19310fc2b2f656b2d2fa.gif",
+    "static/media/TechBlog.jpg": "/my-app/static/media/TechBlog.78f46969fc13663646f1.jpg",
+    "static/media/white-github.png": "/my-app/static/media/white-github.4d74fd76ac168df7723c.png",
+    "static/media/Project-2.jpg": "/my-app/static/media/Project-2.b43ba608a9f30d7e31b1.jpg",
+    "static/media/NoteTaker.jpg": "/my-app/static/media/NoteTaker.018814c446c72c28eceb.jpg",
+    "static/media/github.png": "/my-app/static/media/github.9e094d235b4caa7c31fc.png",
+    "static/media/whatsapp.png": "/my-app/static/media/whatsapp.fdd4b7007148bcf6ce48.png",
+    "static/media/linkedin.png": "/my-app/static/media/linkedin.cabb3cbaf3529dc02ecc.png",
+    "index.html": "/my-app/index.html",
+    "main.d75bb04a.css.map": "/my-app/static/css/main.d75bb04a.css.map",
+    "main.a170729a.js.map": "/my-app/static/js/main.a170729a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d75bb04a.css",
+    "static/js/main.a170729a.js"
+  ]
+}
