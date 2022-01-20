@@ -3,11 +3,11 @@ import "../App.css";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-white poppins nav-margin">
-      <div class="container-fluid" id="nav-container">
-        <p class="navbar-brand fs-2 fatface">A.</p>
+    <nav className="navbar navbar-expand-lg navbar-light bg-white poppins nav-margin">
+      <div className="container-fluid" id="nav-container">
+        <p className="navbar-brand fs-2 fatface">A.</p>
         <button
-          class="navbar-toggler collapsed"
+          className="navbar-toggler collapsed"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavAltMarkup"
@@ -15,10 +15,10 @@ function NavTabs({ currentPage, handlePageChange }) {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
             <a
               className={
                 currentPage === "About" ? "nav-link active" : "nav-link"

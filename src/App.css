@@ -70,7 +70,7 @@ p {
 }
 
 .profile-photo {
-  width: 60%;
+  width: 50%;
   padding: 12px;
   border-left: 3px solid var(--black);
   /* border-top: 2px solid var(--black); */
@@ -113,36 +113,6 @@ p {
   padding-top: 30px;
 }
 
-.container-title-after::after,
-.container-title-after-2::after {
-  content: "";
-  display: block;
-  position: relative;
-  top: -25px;
-  left: 140px;
-  width: 300px;
-  height: 1px;
-  margin-left: 20px;
-  background-color: grey;
-}
-
-.container-title-after-2::after {
-  width: 280px;
-  left: 170px;
-}
-
-.container-title-before::before {
-  content: "";
-  display: block;
-  position: relative;
-  top: 20px;
-  right: 10px;
-  width: 300px;
-  height: 1px;
-  margin-left: 20px;
-  background-color: grey;
-}
-
 .about-me-text {
   padding: 10px;
   text-align: justify;
@@ -160,7 +130,9 @@ li {
 .github,
 .application {
   -webkit-transform: scale(0.9);
+  transform: scale(0.9);
   -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   opacity: 0.5;
   object-fit: cover;
   border-radius: 2% !important;
@@ -176,6 +148,7 @@ li {
   filter: none;
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1);
+  transform: scale(1);
   opacity: 1;
 }
 
@@ -235,8 +208,19 @@ li {
 }
 
 .work-margin {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+#profile-desc {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.form-margin {
+  margin: 0px 500px;
 }
 
 @media screen and (max-width: 1700px) {
@@ -273,11 +257,6 @@ li {
     padding: 20px;
     margin-bottom: 10px;
   }
-  #profile-desc {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
   .my-7 {
     margin-top: 0;
     margin-bottom: 2rem;
@@ -291,17 +270,6 @@ li {
   }
   .content-display {
     opacity: 1;
-  }
-  .container-title-after::after,
-  .container-title-before::before {
-    width: 170px;
-  }
-  .container-title-before::before {
-    right: 100px;
-  }
-  .container-title-after-2::after {
-    left: 140px;
-    width: 200px;
   }
 }
 
