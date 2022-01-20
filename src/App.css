@@ -223,6 +223,10 @@ li {
   margin: 0px 500px;
 }
 
+.center-text {
+  text-align: center;
+}
+
 @media screen and (max-width: 1700px) {
   .work-margin {
     margin: 0 0px;

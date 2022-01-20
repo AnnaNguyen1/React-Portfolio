@@ -60,7 +60,7 @@ export default function Portfolio() {
       <section className="row">
         <div className="col-1 col-sm-2"></div>
         <div className="container-title-after-2 fatface col-11 col-sm-8 z-index-1">
-          <h2 className="z-index-1">Projects.</h2>
+          <h2 className="z-index-1 ">Projects.</h2>
         </div>
         <div className="col-2 mb-5"></div>
       </section>
