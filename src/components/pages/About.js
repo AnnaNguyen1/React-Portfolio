@@ -7,7 +7,7 @@ export default function About() {
     <div className="row align-items-center z-index-1" id="head-container">
       <div id="profile-img" className="col-12 col-lg-6">
         <img
-          className="profile-photo d-block float-end"
+          className="profile-photo d-block float-lg-end"
           src={profileImg}
           alt="Profile of Anna"
         />
@@ -21,7 +21,7 @@ export default function About() {
           </div>
           <div className="col-1 col-sm-2"></div>
         </section>
-        <p className="intro-line col-11 col-sm-8 l-space-neg poppins">
+        <p className="intro-line col-lg-11 col-lg-8 text-lg-start l-space-neg  poppins">
           <small>
             <b>
               Thank you for visting my page! My name is Anna, and I enjoy

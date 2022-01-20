@@ -12,7 +12,7 @@ export default function Resume() {
       </div>
       <section className="row">
         <div className="col-md-1"></div>
-        <div className="about-me-text poppins col-11 col-sm-10 z-index-1 mt-3 center-text">
+        <div className="about-me-text poppins z-index-1 mt-3 center-text">
           <p>
             <small>
               <b>

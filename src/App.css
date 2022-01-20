@@ -67,6 +67,7 @@ p {
 
 .intro-line {
   margin-bottom: 0px;
+  text-align: center;
 }
 
 .profile-photo {
@@ -228,8 +229,8 @@ li {
 }
 
 @media screen and (max-width: 1700px) {
-  .work-margin {
-    margin: 0 0px;
+  .form-margin {
+    margin: 0px 200px;
   }
 }
 
@@ -237,12 +238,17 @@ li {
   .work-img {
     height: 300px;
   }
-
+  .form-margin {
+    margin: 0px 100px;
+  }
   .tech-text {
     font-size: 12px;
   }
   .nav-margin {
     margin: 20px 20px;
+  }
+  .work-margin {
+    margin: 0px;
   }
 }
 
@@ -250,9 +256,6 @@ li {
   .nav-margin {
     margin: 20px 10px;
   }
-}
-
-@media screen and (max-width: 768px) {
   .profile-photo {
     width: 50%;
     float: none !important;
@@ -261,6 +264,9 @@ li {
     padding: 20px;
     margin-bottom: 10px;
   }
+}
+
+@media screen and (max-width: 768px) {
   .my-7 {
     margin-top: 0;
     margin-bottom: 2rem;
@@ -286,20 +292,6 @@ li {
   #contact-container {
     margin-top: 60px;
   }
-  .container-title-after::after,
-  .container-title-before::before {
-    width: 180px;
-  }
-  .container-title-after::after {
-    left: 100px;
-  }
-  .container-title-before::before {
-    right: 110px;
-  }
-  .container-title-after-2::after {
-    left: 130px;
-    width: 150px;
-  }
   .contact-text {
     padding: 0;
   }
@@ -309,12 +301,6 @@ li {
   }
   .name {
     font-size: 40px;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  .container-title-before::before {
-    right: 10px;
   }
 }
 

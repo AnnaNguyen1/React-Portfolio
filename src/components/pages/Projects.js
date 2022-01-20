@@ -65,10 +65,10 @@ export default function Portfolio() {
         <div className="col-2 mb-5"></div>
       </section>
 
-      <div className="row justify-content-center">
+      <div className="row justify-content-center card-div">
         {projectData.map((project) => (
           <section
-            className="work-margin col-lg-4 mt-md-3 z-index-1 project-card"
+            className="work-margin col-lg-4 col-md-5 mx-2 mt-md-3 z-index-1 project-card"
             key={project.title}
           >
             <img
