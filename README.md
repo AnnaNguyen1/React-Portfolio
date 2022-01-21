@@ -17,7 +17,7 @@ My portfolio is created using React, a single page application.Create-React-App 
 To install necessary dependencies, run the following command(s):
 
 ```bash
-npm i inquirer
+npm i
 ```
 
 Run `npm run start` in the terminal to run the app in development mode and view on local host.
