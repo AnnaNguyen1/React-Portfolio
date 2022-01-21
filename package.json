@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://AnnaNguyen1.github.io/React-Portfolio",
   "dependencies": {
     "@popperjs/core": "^2.11.2",
     "@testing-library/jest-dom": "^5.16.1",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
