@@ -28,7 +28,7 @@ Run `npm run start` in the terminal to run the app in development mode and view 
 
 ## Link To Application
 
-Deployed Application:
+Deployed Application: https://annanguyen1.github.io/React-Portfolio/
 
 ## Questions
 
