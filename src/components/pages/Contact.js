@@ -13,7 +13,7 @@ export default function Contact() {
   const { name, email, message } = formState;
 
   const validate = (e) => {
-    if (e.target.name === "email") {
+    if (e.target.name === "Email") {
       const email = e.target.value;
       console.log(email);
       if (validator.isEmail(email)) {
@@ -33,7 +33,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMsg) {
-      setFormState({ [e.target.name]: e.target.value });
+      setFormState({ ...formState, [e.target.name]: e.target.value });
       setSubmitMsg("Message submitted!");
     }
   };
